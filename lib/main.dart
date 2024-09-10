@@ -48,12 +48,13 @@ class MyApp extends StatelessWidget {
                           'Mantinence ',
                           style: TextStyle(
                               fontSize: 24,
-                              color: Color(0xff203142)),
+                              color: Color(0xff203142),
+                              fontFamily: 'Rubik Medium'),
                         ),
                         Text(
                           'Box ',
                           style:
-                              TextStyle(fontSize: 24, color: Color(0xffF9703B)),
+                              TextStyle(fontSize: 24, color: Color(0xffF9703B),fontFamily: 'Rubik Regular'),
                         )
                       ],
                     )
@@ -73,7 +74,8 @@ class MyApp extends StatelessWidget {
                         'Log in',
                         style: TextStyle(
                             fontSize: 24,
-                            color: Color(0xff203142)),
+                            color: Color(0xff203142),
+                            fontFamily: 'rubik Medium'),
                       ),
                       SizedBox(
                         height: 14,
@@ -84,6 +86,7 @@ class MyApp extends StatelessWidget {
                         style: TextStyle(
                           color: Color(0xff4C5980),
                           fontSize: 16,
+                          fontFamily: 'rubik Regular'
                         ),
                       ),
                     ],
@@ -184,12 +187,12 @@ class MyApp extends StatelessWidget {
                child:  Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                   children: [
-                    Text('Forget password?')
+                    Text('Forget password?',style: TextStyle(fontFamily: 'rubik Regular'),)
                   ],
                 ),
              ),
               const SizedBox(
-                height: 65,
+                height: 50,
               ),
               Container(
                 decoration: BoxDecoration(
@@ -200,7 +203,7 @@ class MyApp extends StatelessWidget {
                 child: const Center(
                   child: Text(
                     'Sign In',
-                    style: TextStyle(color: Colors.white, fontSize: 16),
+                    style: TextStyle(color: Colors.white, fontSize: 16,fontFamily: 'rubik Medium'),
                   ),
                 ),
               ),
@@ -210,13 +213,13 @@ class MyApp extends StatelessWidget {
               const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text('Don\'t have an account?'),
+                  Text('Don\'t have an account?',style: TextStyle(fontFamily: 'rubik Regular'),),
                   SizedBox(
                     width: 10,
                   ),
                   Text(
                     'Sign Up',
-                    style: TextStyle(color: Color(0xffF97038)),
+                    style: TextStyle(color: Color(0xffF97038), fontFamily: 'rubik Regular'),
                   )
                 ],
               ),

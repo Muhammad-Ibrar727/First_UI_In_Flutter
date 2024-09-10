@@ -1,16 +1,25 @@
-# testapp
+# TestApp
 
-A new Flutter project.
+A new Flutter project showcasing a simple login UI design.
 
-## Getting Started
+## Screenshot
+
+![Screenshot](./screenshot/Screenshot_20240910-171126.jpg)
+
+## Getting started
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Before you can run this project, make sure you have:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter SDK installed
+- Android Studio or Visual Studio Code for development
+- A connected physical device or emulator for testing
+
+### Installing
+
+1. Clone the repository:
+   ```bash
+   git clone <https://github.com/Muhammad-Ibrar727/First_UI_In_Flutter.git>
