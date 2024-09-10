@@ -4,7 +4,7 @@ A new Flutter project showcasing a simple login UI design.
 
 ## Screenshot
 
-![Screenshot](./screenshot/Screenshot_20240910-171126.jpg)
+<img src="./screenshot/Screenshot_20240910-171126.jpg" width="300" height="600" alt="Screenshot" />
 
 ## Getting started
 
